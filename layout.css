@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.html {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    color:#15317E;
+}
+
+.leftBox {
+    display: inline-block;
+    width: 38%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.RightBox {
+    vertical-align: top;
+    display: inline-block;
+    width: 61.6%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.photo {
+    margin-top: 80px;
+    margin-left: 130px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.summaryHeading {
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+}
+
+.firstName {
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 160PX;
+    margin-top: 25px;
+}
+
+.lastName {
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 120PX;
+}
+
+.role {
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-left: 120PX;
+    font-size: 130%;
+}
+
+.paragraph {
+    display: inline-block;
+    border: 1px solid black;
+    font-family:'Calibri', sans-serif;
+    font-size:large;
+    width: 89.88%;
+}
+
+.experienceHeading {
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+}
