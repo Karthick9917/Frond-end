@@ -16,83 +16,288 @@
     display: inline-block;
 }
 
-.container{
-    height: 100%;
+.container {
+    height: 200%;
     width: 100%;
-    border: 1px solid black;
     display: inline-block;
-    color:#15317E;
 }
 
-.leftBox {
+.container .leftBox {
     display: inline-block;
-    width: 38%;
+    width: 34%;
     height: 100%;
-    border: 1px solid black;
     background-color: white;
 }
 
-.RightBox {
+.container .leftBox .left-top .photo {
+    margin-top: 10%;
+    width: 192px;
+    height: 192px;
+    border-radius: 100%;
+    margin-left: 27%;
+}
+
+.container .leftBox .left-top .name {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #2c3f79;
+    text-align: center;
+    margin-right: 38%;
+    margin-left: 23%;
+    margin-top: 19px;
+}
+
+.container .leftBox .left-top .role {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color:#4c5d90;
+    margin-top: 10px;
+    margin-left: 23%;
+}
+
+.container .leftBox .left-middle {
+    margin-top: 16%;
+}
+
+.container .leftBox .left-middle .personal-details .mail-box {
+    border-bottom: 1px solid #dbdde4;
+    margin-right: 20.5%;
+    margin-left: 10.5%;
+    padding-left: 7%;
+    padding-bottom: 3.6%;
+}
+
+.container .leftBox .left-middle .personal-details .mail {
+    display: inline-block;
+    color: #3b4f86;
+    font-weight: bold;
+    margin-left: 17px;
+}
+
+.container .leftBox .left-middle .personal-details .location-box {
+    border-bottom: 1px solid #dbdde4;
+    margin-right: 20.5%;
+    margin-left: 10.5%;
+    padding-top: 3.7%;
+    padding-left: 7%;
+    padding-bottom: 3.6%;
+}
+
+
+.container .leftBox .left-middle .personal-details .location {
+    display: inline-block;
+    font-weight: bold;
+    color: #3b4f86;
+    margin-left: 21px;
+}
+
+.container .leftBox .left-middle .personal-details .shift-box {
+    border-bottom: 1px solid #dbdde4;
+    margin-right: 20.5%;
+    margin-left: 10.5%;
+    padding-top: 3.7%;
+    padding-left: 7%;
+    padding-bottom: 3.6%;
+}
+
+.container .leftBox .left-middle .personal-details .shift {
+    display: inline-block;
+    color: #3b4f86;
+    font-weight: bold;
+}
+
+.container .leftBox .left-middle .personal-details .job-box {
+    margin-right: 20.5%;
+    margin-left: 10.5%;
+    padding-top: 3.7%;
+    padding-left: 7%;
+    padding-bottom: 3.6%;
+}
+
+.container .leftBox .left-middle .personal-details .job {
+    display: inline-block;
+    color: #3b4f86;
+    font-weight: bold;
+}
+
+.container .leftBox .left-bottom {
+    margin-top: 11%;
+}
+
+.container .leftBox .left-bottom .download-buton {
+    background-color: #377cfe;
+    font-size: 15px;
+    color: white;
+    width: 47.5%;
+    margin-left: 14%;
+    padding: 13px;
+    border-radius: 12px;
+    border: none;
+}
+
+.container .RightBox {
     vertical-align: top;
     display: inline-block;
-    width: 61.6%;
+    width: 58.6%;
     height: 100%;
-    border: 1px solid black;
-    background-color: white;
-
 }
 
-.photo {
-    margin-top: 80px;
-    margin-left: 130px;
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
-
-.summaryHeading {
+.container .RightBox .summary .summaryHeading {
     display: inline-block;
-    border: 1px solid black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 80px;
+    font-size: large;
+    color: #2c3f79;
+    margin-top: 4.80%;
 }
 
-.firstName {
+.container .RightBox .summary .paragraph {
     display: inline-block;
-    border: 1px solid black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 160PX;
-    margin-top: 25px;
-}
-
-.lastName {
-    display: inline-block;
-    border: 1px solid black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 120PX;
-}
-
-.role {
-    display: inline-block;
-    border: 1px solid black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 15px;
-    margin-left: 120PX;
-    font-size: 130%;
-}
-
-.paragraph {
-    display: inline-block;
-    border: 1px solid black;
     font-family:'Calibri', sans-serif;
-    font-size:large;
-    width: 89.88%;
+    font-size: 19px;
+    color: #516293;
+    margin-top: 3.90%;
 }
 
-.experienceHeading {
-    display: inline-block;
-    border: 1px solid black;
+.container .RightBox .experience {
+    margin-top: 14.9%;   
+}
+
+.container .RightBox .experience .experienceHeading {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 80px;
+    font-size: large;
+    color: #2c3f79;
+}
+
+.container .RightBox .experience .experienceRole {
+    margin-top: 3.4%;
+}
+
+.container .RightBox .experience .experienceRole .headingRole {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color:#4c5d90;
+    width: 83.97%;
+}
+
+.container .RightBox .experience .experienceRole .shiftRole {
+    display: inline-block;
+    padding : 3px;
+    padding-left: 22.8px;
+    padding-right: 22.8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3b507f;
+    font-size:95%;
+    background-color:#d7ffe0;
+    border-radius: 30px;
+}
+
+.container .RightBox .experience .experienceDetails {
+    border-bottom: 1px solid #dbdde4;
+    margin-top: 3.25px;
+    padding-bottom: 4.6%;
+}
+
+.container .RightBox .experience .experienceDetails .office {
+    display: inline-block;
+    color: #cbcdda;
+    width: 18.7%;
+}
+
+.container .rightBox .experience .experienceDetails .location {
+    display: inline-block;
+    color: #cbcdda;
+    margin-left: 6px;
+    width: 43.6%;
+}
+
+.container .RightBox .experience .experienceDetails .duration {
+    display: inline-block;
+    color: #cbcdda;
+    text-align: right;
+    width: 30.4%;
+}
+
+.container .RightBox .experience .experienceDetails .duration p {
+    display: inline-block;
+}
+
+.container .RightBox .education {
+    margin-top: 14.9%; 
+}
+
+.container .RightBox .education .headingEducation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3f79;
+    font-size: large;
+}
+
+.container .RightBox .education .subHeadingEducation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color:#4c5d90;
+    margin-top: 3.4%;
+}
+
+.container .RightBox .education .education-details {
+    border-bottom: 1px solid #dbdde4;
+    margin-top: 3.25px;
+    padding-bottom: 4.6%;
+}
+
+.container .RightBox .education .education-details .instituteEducation {
+    display: inline-block;
+    color: #cbcdda;
+    font-size: 18.2px;
+    width: 59.49%;
+}
+
+.container .RightBox .education .education-details .duration {
+    display: inline-block;
+    color: #cbcdda;
+    text-align: right;
+    width: 35.38%;
+}
+
+.container .RightBox .education .education-details .duration p {
+    display: inline-block;
+}
+
+.fa-calendar {
+    margin-right: 4px;
+}
+
+.fa-location-dot {
+    color: #cbcdda;   
+}
+
+.container .leftBox .left-middle .personal-details .mail-box .fa-envelope {
+    color: #cbcdda;
+    display: inline-block;
+}
+
+.container .leftBox .left-middle .personal-details .shift-box .fa-suitcase {
+    color: #cbcdda;
+    margin-right: 17px;
+}
+
+.container .RightBox .experience .experienceDetails .fa-building {
+    color: #cbcdda;
+    margin-right: 4px;
+}
+
+.container .RightBox .education .education-details .fa-graduation-cap {
+    color: #cbcdda;
+    margin-right: 4px;   
+}
+
+.container .leftBox .left-middle .personal-details .job-box .fa-image-portrait {
+    color: #cbcdda;
+    margin-right: 20px;
+}
+
+.container .RightBox .education .education-details:last-child {
+    border: none;
 }
